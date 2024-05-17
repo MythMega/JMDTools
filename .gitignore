@@ -1,0 +1,58 @@
+# Fichiers de build
+[Bb]in/
+[Oo]bj/
+
+# Fichiers générés par Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Fichiers de package
+# le répertoire `packages/` peut être ignoré en raison de Package Restore
+**/packages/*
+# excepté les fichiers `.config` pour permettre la restauration des packages NuGet
+!**/packages/*.config
+# Ignorer les fichiers de package NuGet s'ils sont à côté du fichier de projet
+*.nupkg
+
+# Fichiers de base de données de Visual Studio 2012
+*.dbmdl
+*.jfm
+
+# Fichiers de performance de Visual Studio
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Fichiers de rapport de couverture de code de ReSharper
+*.dotCover
+
+# Fichiers de cache de l'éditeur de T4
+*.t4.cs
+
+# Fichiers générés par les outils de génération de code
+*.g.cs
+*.g.i.cs
+
+# Fichiers de publication Web de Visual Studio
+*.pubxml
+*.publishproj
+
+# Fichiers de débogage
+ntvs_analysis.dat
+
+# Fichiers de Microsoft Azure Build
+csx
+*.build.csdef
+
+# Fichiers de débogage Mono
+mono_crash.*
+
+# Fichiers de débogage de Unity3D
+sysinfo.txt
+
+# Fichiers de JetBrains Rider
+.idea/
+*.sln.iml
