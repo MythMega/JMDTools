@@ -1,6 +1,7 @@
 # Fichiers de build
 [Bb]in/
 [Oo]bj/
+.vs/
 
 # Fichiers générés par Visual Studio
 *.user
